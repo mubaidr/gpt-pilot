@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.11.6-bookworm
 
 # Download precompiled ttyd binary from GitHub releases
 RUN apt-get update && \
